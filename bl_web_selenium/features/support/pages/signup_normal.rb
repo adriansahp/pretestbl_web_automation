@@ -8,11 +8,11 @@ module Bukalapak
     module Register
         NAME_FIELD = 'user_name'
         EMAIL_FIELD = 'email_or_phone'
-        GENDER_CHOICE = 'user_gender_perempuan'
+        GENDER_CHOICE = '//*[@id="new_user"]/div[3]/label[2]/span'
         USERNAME_FIELD = 'user_username'
         PASSWORD_FIELD = 'user_password'
         PASSWORD_CONFIRM_FIELD = 'user_password_confirmation'
-        TNC_TICKBOX = 'user_agreement'
-        SUBMIT_BUTTON = 'recaptcha'
+        TNC_TICKBOX = '//*[@id="new_user"]/div[8]/label'
+        SUBMIT_BUTTON = '//*[@id="new_user"]/buttonxxx'
     end
 end
